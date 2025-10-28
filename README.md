@@ -4,7 +4,7 @@ Automate collection of historical Polymarket earnings Beat/Miss markets and comp
 
 ## Overview
 
-This tool fetches resolved Polymarket earnings markets, extracts resolution data (YES/NO outcomes and sources), and compares predictions to next-day stock moves. The output is structured data in Google Sheets or CSV format for predictive accuracy analysis.
+This tool fetches resolved Polymarket earnings markets, extracts resolution data (YES/NO outcomes and sources), and compares predictions to next-day stock moves. The output is structured data in Google Sheets or CSV format for predictive accuracy analysis. My repository includes additional PRP's which show the extent of my contextual coding. 
 
 ## Features
 
