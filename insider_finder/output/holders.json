@@ -1,0 +1,597 @@
+{
+  "metadata": {
+    "market_slug": "pg-quarterly-earnings-nongaap-eps-10-24-2025-1pt9",
+    "condition_id": "0xb7f95e710bc6f2e678e39cc02d73c4cc6cdb130cf765667647290a72da81144f",
+    "market_title": "Will Procter & Gamble (PG) beat quarterly earnings?",
+    "run_timestamp": "2025-10-23T02:02:52.869742Z",
+    "config": {
+      "history": {
+        "earnings_title_regex": "(?i)(earnings|EPS|quarterly)",
+        "lookback_quarters": 16,
+        "min_sample": 5
+      },
+      "weights": {
+        "win_rate": 0.35,
+        "pnl_per_usd": 0.25,
+        "timing_edge": 0.2,
+        "conviction_z": 0.15,
+        "consistency": 0.05
+      },
+      "filters": {
+        "ignore_low_activity_usd": 250.0,
+        "ignore_total_trades_lt": 10
+      },
+      "caps": {
+        "feature_clip_pct": 0.95,
+        "max_influence_single_wallet": 0.33
+      },
+      "scoring": {
+        "shrinkage_prior": 0.5,
+        "score_floor": 0.0,
+        "score_ceiling": 1.0
+      },
+      "market_signal": {
+        "use_dir_from_price": true,
+        "dir_weight": 0.3,
+        "holder_weight": 0.7
+      }
+    },
+    "holders_analyzed": 32,
+    "holders_scored": 7,
+    "holders_low_sample": 25
+  },
+  "market_signal": {
+    "holder_signal": 0.0006705286175059513,
+    "dir_score": null,
+    "final_score": 0.0006705286175059513,
+    "direction": "FLAT",
+    "top_wallets_count": 32,
+    "total_stake_usd": 2021.785446
+  },
+  "wallets": [
+    {
+      "address": "0xf9f207b77137caa79c6c4516abdef3133db45cba",
+      "username": "gigaplayer",
+      "current_stake_usd": 300.0,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -150.0,
+      "sample_size": 2,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xf5198df69e13937a40d1c76d6f72d9aa067d906b",
+      "username": "sbimbg",
+      "current_stake_usd": 299.96307,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -149.981535,
+      "sample_size": 1,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xe8c098e2cd8cfae9a445d81b8e46f95cbda3be99",
+      "username": "OU812TSK",
+      "current_stake_usd": 134.426664,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -67.213332,
+      "sample_size": 4,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x1cfc260bfa2b5ae89377863180ca3b4f5c862111",
+      "username": "lissartter",
+      "current_stake_usd": 43.420294,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -21.710147,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xe50b63086d0015f04478ce3266c913b96c9a8bde",
+      "username": "Jpegpeddler",
+      "current_stake_usd": 40.0,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -20.0,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xd84fc6bce6917c7a342bc6b18bc1879f365aaa79",
+      "username": "0xD84fC6BcE6917C7a342BC6B18Bc1879F365AAa79-1761057931165",
+      "current_stake_usd": 28.985506,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -14.492753,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x23cb796cf58bfa12352f0164f479deedbd50658e",
+      "username": "quepasamae",
+      "current_stake_usd": 23.831551,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -11.9157755,
+      "sample_size": 1,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x669d24dbc327e954a19ccd81b5fee2d5ec9e19b0",
+      "username": "Degen23",
+      "current_stake_usd": 20.0,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -10.0,
+      "sample_size": 2,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xcf5867c243594ca9737712511c726ed90992d9bd",
+      "username": "runnerrunner17",
+      "current_stake_usd": 20.0,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -10.0,
+      "sample_size": 1,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xae235df842ba78e7ce47abf189578e76567e7d21",
+      "username": "0x92101Trader",
+      "current_stake_usd": 13.157891,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -6.5789455,
+      "sample_size": 5,
+      "low_sample_flag": false
+    },
+    {
+      "address": "0x3f2c3d3a130300efe540324708a42818ebdbc361",
+      "username": "souvy",
+      "current_stake_usd": 13.157891,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -6.5789455,
+      "sample_size": 2,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x63ccec430c6ce39589360a6a29223558508feb32",
+      "username": "RedBullRing",
+      "current_stake_usd": 13.157891,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -6.5789455,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x10bb2bdba9cb037121017fe893b174b478a7d49d",
+      "username": "Austin2035",
+      "current_stake_usd": 10.0,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -5.0,
+      "sample_size": 10,
+      "low_sample_flag": false
+    },
+    {
+      "address": "0x53437cea0e947bfe8014604a610f03d25c350b0f",
+      "username": "William202510",
+      "current_stake_usd": 10.0,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -5.0,
+      "sample_size": 5,
+      "low_sample_flag": false
+    },
+    {
+      "address": "0xedead69417142e857d012cf4bfc546647238fef9",
+      "username": "BaroTheseous",
+      "current_stake_usd": 9.210525,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -4.6052625,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xffb89ba0f466cd0210aa2076933b91866ce9e610",
+      "username": "kugouu",
+      "current_stake_usd": 9.0,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -4.5,
+      "sample_size": 1,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x5c67ca3650463cbb70fcc1ff918ae12edfdd0cac",
+      "username": "0x5c67CA3650463cbb70FCC1fF918AE12eDfDD0caC-1760298986022",
+      "current_stake_usd": 8.695651,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -4.3478255,
+      "sample_size": 2,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x1a0aa6007cc6b6124c475aa086b200c1f5999229",
+      "username": "Jacyniu",
+      "current_stake_usd": 7.0,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -3.5,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xaec4679f8bf82ba20ef49fcb16dae915c0b89fd4",
+      "username": "Mood077",
+      "current_stake_usd": 2.898549,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -1.4492745,
+      "sample_size": 1,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x5058f2e97ceb4438467f24f19fd2663ce92f6d7b",
+      "username": "MTrade08",
+      "current_stake_usd": 2.631575,
+      "current_side": "NO",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": -1.3157875,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x4b92a2d2fd3807981a5dddae7315122530a542e6",
+      "username": "wisser",
+      "current_stake_usd": 556.456664,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 278.228332,
+      "sample_size": 6,
+      "low_sample_flag": false
+    },
+    {
+      "address": "0xd0cdeb9c20221b9aa7d873f865827ccbe13c45ab",
+      "username": "salles",
+      "current_stake_usd": 160.0,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 80.0,
+      "sample_size": 25,
+      "low_sample_flag": false
+    },
+    {
+      "address": "0xb3cc0d905d20ec09871768d12327eb99a8d4a23a",
+      "username": "dabendangt",
+      "current_stake_usd": 100.0,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 50.0,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x8bab63e4d9aac6182e07f21393c7e822e9504f17",
+      "username": "Black.Rock",
+      "current_stake_usd": 72.0,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 36.0,
+      "sample_size": 22,
+      "low_sample_flag": false
+    },
+    {
+      "address": "0x4ffe49ba2a4cae123536a8af4fda48faeb609f71",
+      "username": "planktonXD",
+      "current_stake_usd": 28.111113,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 14.0555565,
+      "sample_size": 1,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xc6e5b32fb9c7c803f7119cd96ac4db0c165b2244",
+      "username": "LifeinSardinia",
+      "current_stake_usd": 20.0,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 10.0,
+      "sample_size": 3,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x4497895c3360abc4d79887ecfe32adeeb8758c81",
+      "username": "garrota",
+      "current_stake_usd": 19.230768,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 9.615384,
+      "sample_size": 1,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x8b57c5f232131bc77099f02a8be987d97d27919b",
+      "username": "0x8B57C5f232131bC77099f02A8BE987D97d27919B-1761114501406",
+      "current_stake_usd": 19.230768,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 9.615384,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x0c67e22e1a7f06d6d695c0d06f59486be1af85a6",
+      "username": "0x0C67E22e1A7f06d6d695c0d06F59486be1Af85a6-1758552458408",
+      "current_stake_usd": 13.888887,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 6.9444435,
+      "sample_size": 6,
+      "low_sample_flag": false
+    },
+    {
+      "address": "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+      "username": "ArmageddonRewardsBilly",
+      "current_stake_usd": 13.157891,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 6.5789455,
+      "sample_size": 0,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0x5091a3f31546acb9d09edc7df7262f4d3f14f7a9",
+      "username": "0x5091A3f31546acB9d09EDC7DF7262F4D3F14F7a9-1759950205898",
+      "current_stake_usd": 7.692306,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 3.846153,
+      "sample_size": 1,
+      "low_sample_flag": true
+    },
+    {
+      "address": "0xa9a17207f78f18521868a51e94b763c3bd66c98a",
+      "username": "LBZero",
+      "current_stake_usd": 2.479991,
+      "current_side": "YES",
+      "features": {
+        "win_rate": 0.5,
+        "pnl_per_usd": 0.5,
+        "timing_edge": 0.5,
+        "conviction_z": 0.5,
+        "consistency": 0.5
+      },
+      "insider_likelihood_score": 0.5,
+      "signed_contribution": 1.2399955,
+      "sample_size": 1,
+      "low_sample_flag": true
+    }
+  ]
+}

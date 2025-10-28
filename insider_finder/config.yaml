@@ -1,0 +1,29 @@
+history:
+  earnings_title_regex: "(?i)(earnings|EPS|quarterly)"
+  lookback_quarters: 16
+  min_sample: 1  # Low sample can indicate insider - don't exclude
+
+weights:
+  win_rate: 0.35
+  pnl_per_usd: 0.25
+  timing_edge: 0.20
+  conviction_z: 0.15
+  consistency: 0.05
+
+filters:
+  ignore_low_activity_usd: 0  # Scan all wallets - low activity can be insider signal
+  ignore_total_trades_lt: 0   # Include all wallets
+
+caps:
+  feature_clip_pct: 0.95
+  max_influence_single_wallet: 0.33
+
+scoring:
+  shrinkage_prior: 0.50
+  score_floor: 0.00
+  score_ceiling: 1.00
+
+market_signal:
+  use_dir_from_price: true
+  dir_weight: 0.30
+  holder_weight: 0.70

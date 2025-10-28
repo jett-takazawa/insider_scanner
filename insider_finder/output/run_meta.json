@@ -1,0 +1,41 @@
+{
+  "market_slug": "pg-quarterly-earnings-nongaap-eps-10-24-2025-1pt9",
+  "condition_id": "0xb7f95e710bc6f2e678e39cc02d73c4cc6cdb130cf765667647290a72da81144f",
+  "market_title": "Will Procter & Gamble (PG) beat quarterly earnings?",
+  "run_timestamp": "2025-10-23T02:02:52.869742Z",
+  "config": {
+    "history": {
+      "earnings_title_regex": "(?i)(earnings|EPS|quarterly)",
+      "lookback_quarters": 16,
+      "min_sample": 5
+    },
+    "weights": {
+      "win_rate": 0.35,
+      "pnl_per_usd": 0.25,
+      "timing_edge": 0.2,
+      "conviction_z": 0.15,
+      "consistency": 0.05
+    },
+    "filters": {
+      "ignore_low_activity_usd": 250.0,
+      "ignore_total_trades_lt": 10
+    },
+    "caps": {
+      "feature_clip_pct": 0.95,
+      "max_influence_single_wallet": 0.33
+    },
+    "scoring": {
+      "shrinkage_prior": 0.5,
+      "score_floor": 0.0,
+      "score_ceiling": 1.0
+    },
+    "market_signal": {
+      "use_dir_from_price": true,
+      "dir_weight": 0.3,
+      "holder_weight": 0.7
+    }
+  },
+  "holders_analyzed": 32,
+  "holders_scored": 7,
+  "holders_low_sample": 25
+}
