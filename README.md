@@ -1,6 +1,7 @@
 # The Insider - Polymarket Earnings Logger
 
 Automate collection of historical Polymarket earnings Beat/Miss markets and compare them to actual stock price movements.
+** I have shifted my focus to building an intricate machine learning system, I will prototype using the scikit learn SDK then use Pytorch for a deeper learning model. ** 
 
 ## Overview
 
